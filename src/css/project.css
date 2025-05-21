@@ -1,0 +1,120 @@
+.project-main {
+  padding: 2rem;
+  background-color: #f8f8f8;
+}
+
+.project-h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #c80000;
+  margin-bottom: 2rem;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 auto;
+  max-width: 950px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 60px;
+}
+
+.project-card-page {
+ background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem 0;
+    margin: 1rem 0;
+    width: 100%;
+    max-width: 750px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-card-page h3 {
+  color: #520000;
+  margin-bottom: 0.5rem;
+}
+
+.project-card-page p {
+  font-size: 1rem;
+  color: #333;
+  margin: 0.5rem 0;
+}
+
+.project-links a {
+  display: inline-block;
+  margin-right: 0.5rem;
+  color: #c80000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project-links a:hover {
+  text-decoration: underline;
+}
+@media screen and (min-width: 1200px) and (max-width: 1800px) {
+  .project-grid {
+    max-width: 1000px;
+  }
+  .project-card-page {
+    width: 100%;
+    margin: 0 auto;
+    padding: 1.5rem 0rem;
+  }
+}
+@media screen and (max-width: 1200px) and (orientation: portrait) {
+  .project-grid {
+    max-width: 675px;
+  }
+  .project-card-page {
+    width: 100%;
+    margin: 0 auto;
+    padding: 1.5rem 0rem;
+  }
+}
+@media screen and (max-width: 1200px) and (orientation: landscape) {
+  .project-grid {
+    max-width: 750px;
+  }
+    .project-card-page {
+    width: 100%;
+    margin: 0 auto;
+    padding: 1.5rem 0rem;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 640px) and (orientation: portrait) {
+    .project-grid {
+    display: block;
+    max-width: fit-content;
+  }
+.project-card-page {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px 0;
+  }
+}
+@media screen and (max-width: 320px) and (orientation: landscape) {
+  .project-grid {
+    display: block;
+    max-width: fit-content;
+  }
+.project-card-page {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px 0;
+  }
+}
+@media screen and (max-width: 320px) and (orientation: portrait) {
+  .project-grid {
+    display: block;
+    max-width: fit-content;
+  }
+.project-card-page {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px 0;
+  }
+}

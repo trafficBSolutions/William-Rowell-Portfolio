@@ -1,0 +1,94 @@
+.footer {
+    background-color: #9a9a9a;
+    color: #fff;
+    text-align: center;
+  }
+  .footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .footer-content li {
+    list-style: none;
+    margin-bottom: 10px;
+  }
+  .footer-li-view {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .footer-li {
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+  }
+  .footer-li:hover {
+    color: #464646;
+  }
+  .footer-copyright {
+    background-color: #000000;
+    padding: 0.1rem;
+  }
+  .footer-copy-p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    text-align: center;
+  }
+  .footer-face {
+    color: bisque;
+  }
+  @media screen and (min-width: 320px) and (max-width: 640px) and (orientation: portrait) {
+    .footer-content {
+      flex-direction: column;
+    }
+    .footer-content li {
+      margin-bottom: 10px;
+    }
+    .footer-li:hover {
+      color: #464646;
+    }
+    .footer-copyright {
+      background-color: #000000;
+      padding: 0.1rem;
+    }
+    .footer-copy-p {
+      font-size: 0.8rem;
+    }
+  }
+    @media screen and (max-width: 320px) and (orientation: landscape) {
+    .footer-content {
+      flex-direction: column;
+    }
+    .footer-content li {
+      margin-bottom: 10px;
+    }
+    .footer-li:hover {
+      color: #464646;
+    }
+    .footer-copyright {
+      background-color: #000000;
+      padding: 0.1rem;
+    }
+    .footer-copy-p {
+      font-size: 0.8rem;
+    }
+  }
+  @media screen and (max-width: 320px) and (orientation: portrait) {
+    .footer-content {
+      flex-direction: column;
+    }
+    .footer-content li {
+      margin-bottom: 10px;
+    }
+    .footer-li:hover {
+      color: #464646;
+    }
+    .footer-copyright {
+      background-color: #000000;
+      padding: 0.1rem;
+    }
+    .footer-copy-p {
+      font-size: 0.6rem;
+    }
+  }

@@ -1,0 +1,384 @@
+.about-main {
+    background-color: rgb(255, 134, 134);
+}
+.about-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 1rem;
+    gap: 3rem;
+}
+.about-hero h1 {
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #000000;
+}
+.about-hero p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: #000000;
+    font-size: 1.2rem;
+}
+.gradient-about-border {
+    width: 320px;
+  height: 320px;
+  padding: 10px; /* Border thickness */
+  border-radius: 50%;
+  background: linear-gradient(to right, #c80000, #ff5549);
+  display: flex;
+  box-shadow: 10px 20px 20px rgba(89, 0, 0, 0.386);
+  align-items: center;
+  justify-content: center;
+}
+.about-img {
+    width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  background: white; 
+}
+.about-story {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+    background-color: #c80000;
+}
+.about-story h2 {
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+}
+.about-story p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+.about-skills {
+    background-color: #ffc1c1;
+    padding: 1rem 2rem 15px;
+}
+.about-skills h2 {
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    padding: 0.02rem;
+    color: #000000;
+    text-align: center;
+}
+.about-skills p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    text-align: center;
+    padding: 0.9rem;
+    color: #000000;
+    font-size: 1.2rem;
+}   
+.about-skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0;
+}
+.about-skills li {
+    list-style: none;
+    background-color: #520000;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+.about-values {
+    background-color: #321111;
+    padding: 1rem 2rem 15px;
+}
+.about-values h2 {
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    padding: 0.02rem;
+    color: #ffffff;
+    text-align: center;
+}
+.about-values p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    text-align: center;
+    padding: 0.9rem;
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+.about-contact {
+    background-color: #870000;
+    padding: 1rem 2rem 15px;
+}
+.about-contact h2 {
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    padding: 0.02rem;
+    color: #ffffff;
+    text-align: center;
+}
+.about-contact p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    text-align: center;
+    padding: 0.9rem;
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+.about-contact a {
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    color: #FAF0CA;
+}
+.about-contact a:hover {
+    color: #fffbed;;
+}
+.footer-about {
+  background-color: #ffefef;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.footer-about .footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.footer-about .footer-li,
+.footer-about .footer-li-view {
+  list-style: none;
+  font-family: Arial, sans-serif;
+  color: #000;
+  padding: 0.3rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.footer-about .footer-li a,
+.footer-about .footer-li-view a {
+  text-decoration: none;
+  color: #000;
+}
+
+.footer-about .footer-li a:hover,
+.footer-about .footer-li-view a:hover {
+  color: #c80000;
+}
+
+.footer-about .social-links {
+  margin-top: 1rem;
+}
+
+.footer-about .social-links a {
+  margin: 0 0.3rem;
+  color: #520000;
+  font-size: 1.5rem;
+}
+
+.footer-about .footer-copy-p {
+  font-size: 0.9rem;
+  color: #ffffff;
+}
+@media screen and (max-width: 1200px) and (orientation: portrait) {
+    .about-hero {
+        padding: 1.5rem;
+        gap: 1rem;
+    }
+    .about-hero h1 {
+        font-size: 1.5rem;
+    }
+    .about-hero p {
+        font-size: 1rem;
+    }
+    .gradient-about-border {
+        width: 200px;
+        height: 180px;
+    }
+    .about-story {
+        padding: 1rem;
+    }
+    .about-story h2 {
+        font-size: 1.5rem;
+    }
+    .about-story p {
+        font-size: 1rem;
+    }
+    .about-skills {
+        padding: 1rem;
+    }
+    .about-skills h2 {
+        font-size: 1.5rem;
+    }
+    .about-skills p {
+        font-size: 1rem;
+    }
+    .about-skills li {
+        font-size: 0.8rem;
+    }
+}
+@media screen and (max-width: 1200px) and (orientation: landscape) {
+    .about-hero {
+        padding: 1rem;
+        gap: 1rem;
+    }
+    .about-hero h1 {
+        font-size: 1.5rem;
+    }
+    .about-hero p {
+        font-size: 1rem;
+    }
+    .gradient-about-border {
+        width: 200px;
+        height: 200px;
+    }
+    .about-story {
+        padding: 1rem;
+    }
+    .about-story h2 {
+        font-size: 1.5rem;
+    }
+    .about-story p {
+        font-size: 1rem;
+    }
+    .about-skills {
+        padding: 1rem;
+    }
+    .about-skills h2 {
+        font-size: 1.5rem;
+    }
+    .about-skills p {
+        font-size: 1rem;
+    }
+    .about-skills li {
+        font-size: 0.8rem;  
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 640px) and (orientation: portrait) {
+    .about-hero {
+        flex-direction: column;
+        padding: 1rem;
+        gap: 1rem;
+    }
+    .about-hero h1 {
+        font-size: 1.5rem;
+    }
+    .about-hero p {
+        font-size: 1rem;
+    }
+    .gradient-about-border {
+        width: 200px;
+        height: 200px;
+    }
+    .about-story {
+        padding: 1rem;
+    }
+    .about-story h2 {
+        font-size: 1.5rem;
+    }
+    .about-story p {
+        font-size: 1rem;
+    }
+    .about-skills {
+        padding: 1rem;
+    }
+    .about-skills h2 {
+        font-size: 1.5rem;
+    }
+    .about-skills p {
+        font-size: 1rem;
+    }
+    .about-skills li {
+        font-size: 0.8rem;
+    }
+}
+@media screen and (max-width: 320px) and (orientation: landscape) {
+    .about-hero {
+        flex-direction: column;
+        padding: 1rem;
+        gap: 1rem;
+    }
+    .about-hero h1 {
+        font-size: 1.5rem;
+    }
+    .about-hero p {
+        font-size: 1rem;
+    }
+    .gradient-about-border {
+        width: 200px;
+        height: 200px;
+    }
+    .about-story {
+        padding: 1rem;
+    }
+    .about-story h2 {
+        font-size: 1.5rem;
+    }
+    .about-story p {
+        font-size: 1rem;
+    }
+    .about-skills {
+        padding: 1rem;
+    }
+    .about-skills h2 {
+        font-size: 1.5rem;
+    }
+    .about-skills p {
+        font-size: 1rem;
+    }
+    .about-skills li {
+        font-size: 0.8rem;
+    }
+}
+@media screen and (max-width: 320px) and (orientation: portrait) {
+    .about-hero {
+        flex-direction: column;
+        padding: 1rem;
+        gap: 1rem;
+    }
+    .about-hero h1 {
+        font-size: 1.5rem;
+    }
+    .about-hero p {
+        font-size: 1rem;
+    }
+    .gradient-about-border {
+        width: 200px;
+        height: 200px;
+    }
+    .about-story {
+        padding: 1rem;
+    }
+    .about-story h2 {
+        font-size: 1.5rem;
+    }
+    .about-story p {
+        font-size: 1rem;
+    }
+    .about-skills {
+        padding: 1rem;
+    }
+    .about-skills h2 {
+        font-size: 1.5rem;
+    }
+    .about-skills p {
+        font-size: 1rem;
+    }
+    .about-skills li {
+        font-size: 0.8rem;
+    }
+}

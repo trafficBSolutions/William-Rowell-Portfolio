@@ -1,0 +1,298 @@
+.header {
+    background-color: #585858;
+    color: #fff;
+    padding: 1rem 0;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+  }
+  .mobile-nav {
+    background-color: #e67e22;
+    color: #fff;
+    border: none;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 20px;
+    display: none;
+}
+.icon-mobile-nav {
+    height: 2.8rem;
+    width: 2.8rem;
+    color: #333;
+  }
+  .main-nav {
+    display: flex;
+    gap: 3.2rem;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .main-nav-list {
+    list-style: none;
+    display: flex;
+    gap: 4.8rem;
+  }
+  .main-nav-link {
+text-decoration: none;
+    color: #fff;
+    font-family: "Moveo Sans W00 Bold";
+    font-weight: 500;
+    font-size: 1.3rem;
+    transition: all 0.3s;
+  }
+   .main-nav-link:hover {
+    color: #a3cdff;
+  }
+  .main-nav-link-view {
+    text-decoration: none;
+    color: #77b4ff;
+    font-family: "Moveo Sans W00 Bold";
+    font-weight: 500;
+    font-size: 1.3rem;
+    transition: all 0.3s;
+  }
+  .tbs-header-p {
+    font-family: "Kairos W00 Extended Medium";
+    font-size: 1.3rem;
+    color: #ffba67;
+  }
+  .mobile-nav-close {
+    display: grid;
+    place-items: center;
+    
+    color: #333;
+  }
+  .tbs-header-img {
+    max-width: 200px;
+  }
+  .header-img {
+    max-width: 200px;
+  }
+  .header-p {
+    font-family: "Kairos W01 Extended Medium";
+    font-size: 0.9rem;
+    color: #ff9898;
+  }
+    @media screen and (max-width: 1200px) and (orientation: portrait) {
+    .header {
+      gap: 1rem;
+    }
+    .main-nav {
+      gap: 1rem;
+    }
+    .tbs-header-img {
+      max-width: 120px;
+    }
+    .header-img {
+      max-width: 120px;
+    }
+    .main-nav-list {
+      gap: 0.7rem;
+    }
+  }
+  @media screen and (max-width: 1200px) and (orientation: landscape) {
+    .header {
+      gap: 1rem;
+    }
+    .main-nav {
+      gap: 1rem;
+    }
+    .tbs-header-img {
+      max-width: 120px;
+    }
+    .main-nav-list {
+      gap: 1rem;
+    }
+  }
+  @media screen and (min-width: 320px) and (max-width: 640px) and (orientation: portrait) {
+    .header {
+        position: relative;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding: 0 10px;
+    }
+    .mobile-nav {
+        background-color: #e67e22;
+  color: #fff;
+  border: none;
+  text-align: center;
+  padding: 5px 10px;
+  font-size: 1px;
+  font-family: "Kairos W04 Extended Bold";
+  display: block;
+  width: 60px;
+  height: 40px;
+  border-radius: 6px;
+  }
+  .icon-mobile-nav {
+    height: 2rem;
+    width: 2rem;
+    text-align: center;
+  }
+  .main-nav {
+    display: none; /* Hide menu by default */
+flex-direction: column;
+position: absolute;
+top: 50px; /* Position below header */
+left: 0;
+width: 100%; /* Full-width menu */
+background-color: #00195c; /* Match header background */
+z-index: 1000; /* Ensure it appears above content */
+padding: 10px 0;
+border-top: 1px solid #555; /* Optional styling */
+  }
+  .main-nav.active {
+display: flex; /* Show menu when active */
+}
+.mobile-nav-close {
+    width: 100%;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+.tbs-header-img {
+    max-width: 100px;
+}
+.header-img {
+    max-width: 100px;
+}
+.main-nav-list {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        list-style: none;
+        gap: 2rem;
+    }
+}
+    @media screen and (max-width: 320px) and (orientation: landscape) {
+    .header {
+        position: relative;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding: 0 10px;
+    }
+    .mobile-nav {
+        background-color: #e67e22;
+  color: #fff;
+  border: none;
+  text-align: center;
+  padding: 5px 10px;
+  font-size: 1px;
+  font-family: "Kairos W04 Extended Bold";
+  display: block;
+  width: 60px;
+  height: 40px;
+  border-radius: 6px;
+  }
+  .icon-mobile-nav {
+    height: 2rem;
+    width: 2rem;
+    text-align: center;
+  }
+  .main-nav {
+    display: none; /* Hide menu by default */
+flex-direction: column;
+position: absolute;
+top: 50px; /* Position below header */
+left: 0;
+width: 100%; /* Full-width menu */
+background-color: #00195c; /* Match header background */
+z-index: 1000; /* Ensure it appears above content */
+padding: 10px 0;
+border-top: 1px solid #555; /* Optional styling */
+  }
+  .main-nav.active {
+display: flex; /* Show menu when active */
+}
+.mobile-nav-close {
+    width: 100%;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+.tbs-header-img {
+    max-width: 100px;
+}
+.header-img {
+    max-width: 100px;
+}
+.main-nav-list {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        list-style: none;
+        gap: 2rem;
+    }
+}
+  @media screen and (max-width: 320px) and (orientation: portrait) {
+    .header {
+        position: relative;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding: 0 10px;
+    }
+    .mobile-nav {
+        background-color: #e67e22;
+  color: #fff;
+  border: none;
+  text-align: center;
+  padding: 5px 10px;
+  font-size: 1px;
+  font-family: "Kairos W04 Extended Bold";
+  display: block;
+  width: 60px;
+  height: 40px;
+  border-radius: 6px;
+  }
+  .icon-mobile-nav {
+    height: 2rem;
+    width: 2rem;
+    text-align: center;
+  }
+  .main-nav {
+    display: none; /* Hide menu by default */
+flex-direction: column;
+position: absolute;
+top: 50px; /* Position below header */
+left: 0;
+width: 100%; /* Full-width menu */
+background-color: #00195c; /* Match header background */
+z-index: 1000; /* Ensure it appears above content */
+padding: 10px 0;
+border-top: 1px solid #555; /* Optional styling */
+  }
+  .main-nav.active {
+display: flex; /* Show menu when active */
+}
+.mobile-nav-close {
+    width: 100%;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+.tbs-header-img {
+    max-width: 100px;
+}
+.header-img {
+    max-width: 100px;
+}
+.main-nav-list {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        list-style: none;
+        gap: 2rem;
+    }
+}
