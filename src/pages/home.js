@@ -95,6 +95,15 @@ const Home = () => {
     <a href="https://github.com/trafficBSolutions/Skyline-Builders">GitHub</a>
      <a href ="https://github.com/trafficBSolutions/Skyline-Builders-Server">GitHub Server</a>
   </div>
+      <div className="project-card">
+    <h3>Mobile Detailing Website</h3>
+    <p>Website that allows for a mobile detailing company to have a user-friendly MERN Stack.
+    </p>
+    <p><strong>Stack:</strong> React, Express, MongoDB, Node</p>
+    <a href="https://www.highvisibilitydetailing.com/" target="_blank">Live Demo</a>
+    <a href="https://github.com/trafficBSolutions/High-Visibility">GitHub</a>
+     <a href ="https://github.com/trafficBSolutions/High-Vis-Server">GitHub Server</a>
+  </div>
   </div>
 </section>
 <HomePhotoGallery />
